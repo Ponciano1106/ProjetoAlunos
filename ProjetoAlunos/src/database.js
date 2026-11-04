@@ -11,6 +11,7 @@ db.exec(`
         nome TEXT NOT NULL,
         idade INTEGER NOT NULL,
         email TEXT NOT NULL UNIQUE
+        telefone TEXT NULL
     )
 `);
 
