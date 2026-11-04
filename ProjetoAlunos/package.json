@@ -1,0 +1,14 @@
+{
+  "name": "projeto-alunos-js",
+  "version": "1.0.0",
+  "description": "API REST de cadastro de alunos usando Node.js, Express e SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0"
+  }
+}
